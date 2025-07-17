@@ -1,12 +1,12 @@
-# 📊 E-Commerce Performance Dashboard
+# E-Commerce Performance Dashboard
 
-## 📁 Project Overview
+## Project Overview
 
 This project presents a comprehensive Power BI dashboard that visualizes key performance indicators and insights derived from a Brazilian e-commerce dataset. The data spans multiple tables including orders, customers, products, sellers, delivery status, payment methods, and customer reviews. The goal of this dashboard is to provide a high-level view of sales performance, customer engagement, delivery operations, and payment trends.
 
 ---
 
-## 🎯 Business Questions
+## Business Questions
 
 The dashboard is designed to answer the following critical business questions:
 
@@ -21,34 +21,34 @@ The dashboard is designed to answer the following critical business questions:
 
 ---
 
-## 🔧 Key Features and Analysis Performed
+## Key Features and Analysis Performed
 
-### 📦 Sales & Order Analysis
+### Sales & Order Analysis
 - **Total Orders:** Total number of distinct orders placed.
 - **Total Revenue:** Aggregated order revenue.
 - **Total Products Sold:** Total number of units sold across all orders.
 - **Top Product Categories:** Revenue distribution by product category.
 - **Top Sellers:** Sellers ranked by total revenue and quantity sold.
 
-### 💳 Payment Method Analysis
+### Payment Method Analysis
 - Breakdown of payment methods used by customers (e.g., credit card, debit card, voucher).
 - Identifies most preferred payment types for optimizing future promotions and payment integrations.
 
-### 🚚 Delivery Performance
+### Delivery Performance
 - **Order Status Breakdown:** Visual segmentation of order fulfillment statuses (delivered, shipped, cancelled, etc.).
 - Provides insight into operational efficiency and customer service reliability.
 
-### ⭐ Customer Review Insights
+### Customer Review Insights
 - **Average Review Score:** Overall customer satisfaction measured via product reviews.
 - Allows tracking of brand perception and identification of areas needing improvement.
 
-### 👥 Customer Metrics
+### Customer Metrics
 - Total number of unique customers served.
 - Helps measure business reach and customer retention potential.
 
 ---
 
-## 📌 Visuals Included
+## Visuals Included
 
 | Visualization                    | Chart Type     | Insight Provided                                     |
 |----------------------------------|----------------|------------------------------------------------------|
@@ -60,7 +60,7 @@ The dashboard is designed to answer the following critical business questions:
 
 ---
 
-## 🧠 Insights Derived
+## Insights Derived
 
 - **Credit card** is the dominant payment method, accounting for ~76% of all transactions.
 - **"Cama_mesa_banho"** and **"beleza_saude"** are top-performing product categories.
