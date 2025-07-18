@@ -1,6 +1,6 @@
 # Clustering Project: Unsupervised Learning with K-Means, DBSCAN, and K-Prototypes
 
-## 📌 Project Overview
+## Project Overview
 This project explores unsupervised clustering techniques using three popular algorithms:
 - **K-Means**: for numerical data clustering.
 - **DBSCAN**: for density-based spatial clustering.
@@ -10,12 +10,11 @@ The goal is to compare these algorithms on different datasets and understand how
 
 ---
 
-## 📂 Algorithms Used
+## Algorithms Used
 
 ### 1. K-Means Clustering
 - Applied to the Iris dataset.
 - Features were scaled using `StandardScaler`.
-- Optimal clusters determined using the **Elbow Method**.
 - Evaluation done via **Silhouette Score**.
 
 ### 2. DBSCAN (Density-Based Spatial Clustering)
@@ -28,10 +27,11 @@ The goal is to compare these algorithms on different datasets and understand how
 - Used `kmodes` library for K-Prototypes.
 - Cluster assignments visualized and interpreted.
 - Helped group data without requiring conversion of categorical features.
+- Demonstrated ability to work with real-world categorical data.
 
 ---
 
-## 🔧 Tools & Libraries
+## Tools & Libraries
 - Python
 - Jupyter Notebook
 - `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`
@@ -39,11 +39,11 @@ The goal is to compare these algorithms on different datasets and understand how
 
 ---
 
-## 📊 Key Learnings
-- Each algorithm has strengths depending on the data type and business case.
-- **K-Means** is efficient but assumes spherical clusters.
-- **DBSCAN** is powerful for noise detection and non-globular clusters.
-- **K-Prototypes** handles real-world datasets with categorical features without one-hot encoding.
+## Key Learnings
+- Clustering reveals hidden patterns when labels are not available
+- **K-Means** is effective but sensitive to scale and requires predefined `k`
+- **DBSCAN** can find arbitrarily shaped clusters and detect outliers, no need to specify number of clusters
+- **K-Prototypes** is ideal for datasets that contain both numerical and categorical data
 
 ---
 
@@ -51,21 +51,3 @@ The goal is to compare these algorithms on different datasets and understand how
 - **Customer Segmentation** for marketing personalization
 - **Product Categorization** based on sales/usage patterns
 - **Fraud Detection** using anomaly detection (via DBSCAN)
-
----
-
-## 📁 Files
-- `Clusttering.ipynb`: Main notebook with EDA, implementation, and visualizations
-
----
-
-## 🚀 Next Steps
-- Apply these clustering methods to real business datasets (e.g., e-commerce, telecom).
-- Build a dashboard to visualize clusters and their characteristics.
-- Integrate cluster results with business KPIs.
-
----
-
-## 🧠 Author
-**Anmol Amin**  
-Beginner Data Analyst with interest in ML-assisted analytics and business intelligence.
