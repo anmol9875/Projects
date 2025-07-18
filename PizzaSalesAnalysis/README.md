@@ -27,11 +27,11 @@ The dataset contains the following key columns:
 
 ## Business Questions Answered
 
-1. **What is the sales distribution across different pizza categories?**
-2. **Which pizza sizes generate the highest revenue?**
-3. **What are the daily trends for total orders?**
-4. **What are the peak hours for pizza orders?**
-5. **Which are the top 5 best-selling pizzas in each category?**
+1. What is the sales distribution across different pizza categories?
+2. Which pizza sizes generate the highest revenue?
+3. What are the daily trends for total orders?
+4. What are the peak hours for pizza orders?
+5. Which are the top 5 best-selling pizzas in each category?
 
 ---
 
@@ -61,5 +61,3 @@ A grouped bar chart showing the top 5 pizzas in terms of quantity sold within ea
 - **Matplotlib**
 - **Seaborn**
 - **Jupyter Notebook**
-
----
