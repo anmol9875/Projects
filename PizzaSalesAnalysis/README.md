@@ -56,8 +56,8 @@ A grouped bar chart showing the top 5 pizzas in terms of quantity sold within ea
 
 ## Tools & Libraries Used
 
-- **Python**
-- **Pandas**
-- **Matplotlib**
-- **Seaborn**
-- **Jupyter Notebook**
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
