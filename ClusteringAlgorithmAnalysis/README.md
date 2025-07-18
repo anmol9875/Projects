@@ -47,7 +47,7 @@ The goal is to compare these algorithms on different datasets and understand how
 
 ---
 
-## 💡 Business Applications
+## Business Applications
 - **Customer Segmentation** for marketing personalization
 - **Product Categorization** based on sales/usage patterns
 - **Fraud Detection** using anomaly detection (via DBSCAN)
