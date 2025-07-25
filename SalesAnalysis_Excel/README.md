@@ -1,62 +1,53 @@
-# ☕ Coffee Shop Order Analysis
+# Coffee Shop Order Analysis (Excel Dashboard)
 
-This project analyzes coffee shop order data to uncover sales trends, customer preferences, and order behavior across different products, days, and times. Visualizations were created using **Power BI** after cleaning and transforming the data for accurate insights.
-
----
-
-## 📊 Dashboard Highlights
-
-The following insights are visualized in the Power BI dashboard:
-
-- **% of Sales by Coffee Category**  
-  Breakdown of total sales based on categories like Latte, Cappuccino, Espresso, etc.
-
-- **% of Sales by Coffee Size**  
-  Analysis of which cup sizes (Small, Medium, Large) are most popular in terms of sales.
-
-- **Daily Trend for Total Orders**  
-  Time series trend showing the volume of orders per day.
-
-- **Hourly Trend for Total Orders**  
-  Distribution of order volume across different hours of the day.
-
-- **Top 5 Best-Selling Coffees per Category**  
-  Identifies the most frequently ordered coffee types within each category.
+This project focuses on analyzing coffee shop order data using Microsoft Excel. It includes end-to-end data cleaning and the creation of an interactive dashboard using Excel features such as pivot tables, slicers, and charts.
 
 ---
 
-## 🧹 Data Cleaning Process
+## Dashboard Highlights
 
-Before creating the dashboard, the dataset was cleaned and prepared for analysis using a combination of Excel and Power BI. The process included:
+The Excel dashboard provides the following interactive insights:
 
-- **Populating missing fields using `XLOOKUP`**: Merged related tables and filled in missing data like product names, sizes, or categories by referencing master datasets.
-- **Removing duplicate records** to ensure data accuracy.
-- **Correcting data types** for numerical, text, and date/time columns.
-- **Standardizing date and size formats**, ensuring consistency across all entries (e.g., converting date columns to proper formats, normalizing size labels like `Small`, `Med`, `Medium`, etc.).
-- **Splitting and formatting columns** in Power Query for better analysis (e.g., extracting hour from timestamps for hourly trends).
+- **Order Trends Over Time**  
+  A timeline showing how orders fluctuate by date.
 
----
+- **Interactive Slicers** to Filter Data by:
+  - **Cup Size** (e.g., 0.2 Kg, 0.5 Kg, 1.0 Kg, 2.5 Kg)
+  - **Roast Type** (e.g., Light, Medium, Dark)
+  - **Loyalty Card Usage** (Yes/No)
+  - **Order Date** (via timeline)
 
-## ❓ Business Questions Addressed
-
-- Which coffee categories and sizes generate the highest revenue?
-- What are the busiest hours and days for orders?
-- Which specific coffee items are the most popular in each category?
-- Are there any patterns in ordering behavior over time?
-
----
-
-## 🛠 Tools Used
-
-- **Excel** for initial data population (using `XLOOKUP`) and cleanup
-- **Power BI** for advanced transformation and interactive dashboard creation
+- **Pivot Charts & Tables** for summarizing:
+  - Order frequency by different categories
+  - Customer preferences by size and roast
+  - Visual filtering and comparative analysis using slicers
 
 ---
 
-## 📁 File Structure
+## Data Cleaning Process
 
-```bash
-coffee-shop-order-analysis/
-├── coffeeOrdersData.xlsx           # Source data file
-├── Coffee_Shop_Dashboard.pbix     # Power BI dashboard (optional - add if shared)
-└── README.md                       # Project documentation
+The raw data was cleaned and structured in Excel prior to dashboard development:
+
+- Used `XLOOKUP` to populate missing fields by referencing external tables (e.g., product details or customer info)
+- Removed duplicate entries
+- Standardized data types, especially for dates and text
+- Formatted columns (e.g., date, size, roast type) to ensure consistency
+- Created calculated columns where necessary to enable proper filtering and visualization
+
+---
+
+## Business Questions Addressed
+
+- How do coffee orders vary over time?
+- What are the most preferred coffee sizes and roast types?
+- How does loyalty card usage impact ordering behavior?
+- How can filters (size, roast, loyalty) refine customer insights?
+
+---
+
+## Tools Used
+
+- Microsoft Excel for:
+  - Data Cleaning
+  - Data Transformation
+  - Dashboard Design (using Pivot Tables, Slicers, and Charts)
