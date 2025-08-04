@@ -51,10 +51,3 @@ To conduct a comprehensive analysis of Blinkit's sales performance, customer sat
 ### 7. All Metrics by Outlet Type  
 - **Objective:** Provide a complete view of KPIs (Total Sales, Average Sales, Number of Items, Average Rating) by outlet type.  
 - **Chart Type:** Matrix Card  
-
----
-
-## 🛠 Tools Used
-- **Power BI** – Data cleaning, modeling, and visualization  
-- **Excel/CSV** – Source data  
-
