@@ -1,16 +1,16 @@
-# 📊 Blinkit Sales Performance Analysis (Power BI Dashboard)
+# Blinkit Sales Performance Analysis (Power BI Dashboard)
 
-This project analyzes Blinkit's sales performance, customer satisfaction, and inventory distribution to uncover actionable insights and opportunities for optimization. The analysis is powered by **Power BI** and uses multiple KPIs and visualizations to meet defined business requirements.
+This project analyzes Blinkit's sales performance, customer satisfaction, and inventory distribution to uncover actionable insights and opportunities for optimization. The analysis is powered by PowerBI and uses multiple KPIs and visualizations to meet defined business requirements.
 
 ---
 
-## 🏢 Business Requirement
+## Business Requirement
 
 To conduct a comprehensive analysis of Blinkit's sales performance, customer satisfaction, and inventory distribution in order to identify key insights and optimization opportunities. The goal is to visualize these findings through various KPIs and charts for data-driven decision-making.
 
 ---
 
-## 📌 KPI Requirements
+## KPI Requirements
 
 1. **Total Sales** – Overall revenue generated from all items sold.  
 2. **Average Sales** – Average revenue per sale.  
@@ -19,7 +19,7 @@ To conduct a comprehensive analysis of Blinkit's sales performance, customer sat
 
 ---
 
-## 📊 Charts & Business Objectives
+## Charts & Business Objectives
 
 ### 1. Total Sales by Fat Content  
 - **Objective:** Analyze the impact of fat content on total sales.  
